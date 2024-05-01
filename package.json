@@ -1,0 +1,33 @@
+{
+  "name": "content-routing-example",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@chainsafe/libp2p-noise": "^15.0.0",
+    "@chainsafe/libp2p-yamux": "^6.0.2",
+    "@helia/delegated-routing-v1-http-api-client": "^3.0.1",
+    "@libp2p/autonat": "^1.0.18",
+    "@libp2p/bootstrap": "^10.0.21",
+    "@libp2p/circuit-relay-v2": "^1.0.21",
+    "@libp2p/dcutr": "^1.0.18",
+    "@libp2p/identify": "^1.0.20",
+    "@libp2p/kad-dht": "^12.0.14",
+    "@libp2p/mplex": "^10.0.21",
+    "@libp2p/peer-id-factory": "^4.1.0",
+    "@libp2p/ping": "^1.0.16",
+    "@libp2p/tcp": "^9.0.23",
+    "@libp2p/upnp-nat": "^1.0.19",
+    "@libp2p/webrtc": "^4.0.29",
+    "@libp2p/websockets": "^8.0.21",
+    "datastore-level": "^10.1.8",
+    "libp2p": "^1.4.3",
+    "multiformats": "^13.1.0"
+  }
+}
